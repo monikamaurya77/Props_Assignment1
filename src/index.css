@@ -1,0 +1,55 @@
+body{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.card{
+  width: 11rem;
+  height: 13rem;
+ 
+}
+
+.upperCards{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-left: 5rem;
+  margin-top: 4rem;
+  
+}
+
+.lowerCards{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+.sub-card{
+  background-color: #ffffff;
+ 
+  width: 9rem;
+  margin-left: -12rem;
+  height: 5%;
+  
+}
+
+.border{
+  border: .5px solid #c5c5c5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.code{
+  font-weight: bold;
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.name{
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  margin-top: -0.5rem;
+  font-size: xx-small;
+}
